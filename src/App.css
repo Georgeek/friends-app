@@ -27,13 +27,14 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  width: 550px;
 }
 
 .friend--wrap {
-  margin: 10px 0;
-  padding: 10px 20px;
+  padding: 15px 20px;
   display: flex;
   justify-content: flex-start;
+  border-top: 1px solid #e1e5eb;
 }
 
 .friend--photo {
@@ -58,4 +59,14 @@
 
 .friend--info__description {
   margin-bottom: 10px;
+  font-size: 13px;
+  color: #656565;
+}
+
+.some--button {
+  padding: 5px 10px;
+  background: #e1e5eb;
+  color: #285473;
+
+  border: none;
 }

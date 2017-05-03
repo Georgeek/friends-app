@@ -22,6 +22,10 @@ class App extends Component {
             name={'Busya'}
             img={'https://pp.userapi.com/c630220/v630220870/49b1d/slL4JTst23o.jpg'}
           />
+          <Friend
+            name={'Peche'}
+            img={'https://pp.userapi.com/c630918/v630918756/3ec43/ZgrOiAXsIv0.jpg'}
+          />
         </div>
 
       </div>
