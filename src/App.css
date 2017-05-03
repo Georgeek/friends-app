@@ -1,0 +1,61 @@
+.App {
+  /*text-align: center;*/
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  /*height: 150px;*/
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.friend-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.friend--wrap {
+  margin: 10px 0;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.friend--photo {
+  margin-right: 20px;
+}
+
+.friend--photo img {
+  border-radius: 100%;
+  width: 80px;
+  height: 80px;
+}
+
+.friend--info {
+
+}
+
+.friend--info__title {
+  font-weight: bold;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+
+.friend--info__description {
+  margin-bottom: 10px;
+}
