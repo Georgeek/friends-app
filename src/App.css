@@ -9,9 +9,9 @@
 
 .App-header {
   background-color: #222;
-  /*height: 150px;*/
   padding: 20px;
   color: white;
+  text-align: center;
 }
 
 .App-intro {
@@ -27,14 +27,19 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  width: 550px;
 }
 
 .friend--wrap {
+  margin: 0 auto;
   padding: 15px 20px;
+  width: 550px;
   display: flex;
   justify-content: flex-start;
   border-top: 1px solid #e1e5eb;
+}
+
+.friend--wrap Button {
+  align-self: center;
 }
 
 .friend--photo {
@@ -42,7 +47,7 @@
 }
 
 .friend--photo img {
-  border-radius: 100%;
+  /*border-radius: 100%;*/
   width: 80px;
   height: 80px;
 }
